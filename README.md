@@ -5,7 +5,7 @@ My main idea consisted of 4 parts. making a method that counts the amount of ide
 
 
 Code Structure
-my program consisted many methods I used the dictionary file Phil allowed us to use and modified the String split method to my liking
+my program consisted many methods I used the dictionary file My lecturer allowed us to use and modified the String split method to my liking
 This regex allows me to split sentence from books. I imported at full stops, exclamation marks and Question marks and also includes them all, this would ensure that they were grammatically correct sentences, however it includes a space in the beginning of all sentences. I fixed this by simply erasing the whitespace in the beginning. 
 I then filtered the raw sentence imported from the file using regex to filtered anything with word followed by whitespace and 1-9 of them with an additional word. This allowed me to include sentences less than or equal to 10 words which are of course grammatically correct sentences.
 I used the get word method from the dictionary class to import the split sentences and tried filter them into a new array however whenever I ran it in my for loop, it kept giving me an index out of bounds error meaning it was looping more or less than the array size. I fixed this issue by making a loop to count the amount of filtered sentences and then setting that size to the new array. This would fix index out of bounds problem problem I was facing.
